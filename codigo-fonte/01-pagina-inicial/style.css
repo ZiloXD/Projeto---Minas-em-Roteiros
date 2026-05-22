@@ -1,0 +1,59 @@
+:root {
+    /* Cores principais */
+    --azul-serra: #1F4E5F;
+    --azul-horizonte: #4F7C8C;
+    --azul-nevoa: #DCE7EC;
+
+    /* Tons quentes */
+    --areia-mineira: #E6D6C2;
+    --cafe-estrada: #3A2F2A;
+    --ouro-cerrado: #C58B3D;
+
+    /* Neutras */
+    --branco: #FFFFFF;
+    --preto-suave: #1A1A1A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*NAVIGATION BAR*/
+
+h1 {
+    margin: 10px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #1F4E5F, #4F7C8C);
+    gap: 10px;
+}
+
+.navegadores a {
+    
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.navegadores a:hover {
+    text-decoration: underline;
+}
+
+.logosite {
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+    background-color: #FDF0DC;
+    padding: 2px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+
+/*HERO*/
+
