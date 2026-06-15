@@ -24,6 +24,7 @@
 
 h1 {
     margin: 10px 20px;
+    color: var(--branco);
 }
 
 nav {
@@ -36,8 +37,9 @@ nav {
 .navegadores a {
     
     text-decoration: none;
-    color: white;
+    color: var(--branco);
     margin: 10px;
+    font-size: 25px;
 }
 
 .navegadores a:hover {
@@ -49,11 +51,24 @@ nav {
     width: 80px;
     object-fit: contain;
     background-color: #FDF0DC;
-    padding: 2px;
+    padding: 0px;
     border-radius: 50%;
-    margin: 10px;
+    margin: 5px;
 }
 
+nav {
+    margin  0px;
+}
 
 /*HERO*/
 
+.hero {
+    
+}
+
+.heroplanodefundo {
+    background-image: url('../imagens/Plano\ de\ Fundo\ -\ Minas\ em\ Roteiros.png');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
