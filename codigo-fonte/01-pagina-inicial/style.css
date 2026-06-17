@@ -23,6 +23,7 @@
 /*NAVIGATION BAR*/
 
 h1 {
+    font-size: 80px;
     margin: 10px 20px;
     color: var(--branco);
 }
@@ -32,6 +33,7 @@ nav {
     align-items: center;
     background: linear-gradient(to right, #1F4E5F, #4F7C8C);
     gap: 10px;
+    margin: 0px;
 }
 
 .navegadores a {
@@ -56,15 +58,7 @@ nav {
     margin: 5px;
 }
 
-nav {
-    margin  0px;
-}
-
 /*HERO*/
-
-.hero {
-    
-}
 
 .heroplanodefundo {
     background-image: url('../imagens/Plano\ de\ Fundo\ -\ Minas\ em\ Roteiros.png');
@@ -72,3 +66,40 @@ nav {
     background-position: center;
     height: 550px;
 }
+
+.titulo-site {
+    margin-left: 25px;
+}
+
+.sub-hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--azul-nevoa);
+    padding: 20px;
+}
+
+/*CAROUSEL*/
+
+.group-cards {
+    display: flex;
+}
+
+/*BOTÕES*/
+
+.login {
+    margin-left: auto;
+    margin-right: 25px;      
+}
+
+.botao-login {
+color: var(--preto-suave);
+background-color: var(--areia-mineira);
+border-radius: 5px;
+padding: 5px 10px;
+}
+
+.botao-login:hover {
+    background-color: var(--ouro-cerrado);
+    color: var(--branco);
+}
+
